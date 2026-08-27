@@ -39,9 +39,9 @@
             transition: all 0.5s ease-in-out;
         }
 
-        /* Renglón 45: Expansión limpia sin marcos blancos */
+        /* Renglón 45: Ampliación de altura para imágenes verticales en desgloses */
         .activity-card.active .activity-details {
-            max-height: 800px;
+            max-height: 1200px;
             opacity: 1;
         }
 
@@ -117,14 +117,14 @@
         </div>
     </header>
 
-    <!-- Módulo Principal: Grilla Completa con Imagen de Fondo en Desglose -->
+    <!-- Módulo Principal: Grilla Completa con Imagen Vertical Completa en Desglose -->
     <section id="actividades" class="py-24 px-6 max-w-7xl mx-auto">
         <div class="text-center mb-16 italic">
             <p class="text-amber-800 text-xs font-bold uppercase tracking-[0.4em] mb-2">Ecosistema Integrado</p>
             <h2 class="text-3xl md:text-5xl font-bold text-stone-900 uppercase">Disciplinas & Terapias</h2>
             <div class="w-16 h-px bg-amber-800 mx-auto my-4"></div>
             <p class="text-stone-600 text-sm max-w-2xl mx-auto">
-                Haz clic en cualquier propuesta para desplegar su imagen de fondo, resumen y acceder a su espacio web oficial.
+                Haz clic en cualquier propuesta para desplegar su marco completo de imagen, resumen y acceder a su espacio web oficial.
             </p>
         </div>
 
@@ -140,12 +140,12 @@
                 <p class="text-stone-500 text-xs mt-1">Shiatsu Namikoshi & Anma • Gastón Burgos</p>
                 
                 <div class="activity-details">
-                    <div class="relative rounded-b-sm overflow-hidden -mx-8 -mb-8 mt-6 p-6 min-h-[220px] flex flex-col justify-end text-white bg-stone-900">
-                        <img src="imagen/masaje-japones.png" alt="Masaje Japonés" class="absolute inset-0 w-full h-full object-cover opacity-70" onerror="this.style.display='none'">
-                        <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/60 to-transparent"></div>
-                        <div class="relative z-10 space-y-3">
+                    <div class="relative rounded-b-sm overflow-hidden -mx-8 -mb-8 mt-6 p-6 min-h-[380px] md:min-h-[440px] flex flex-col justify-end text-white bg-stone-950">
+                        <img src="imagen/masaje-japones.png" alt="Masaje Japonés" class="absolute inset-0 w-full h-full object-cover opacity-80" onerror="this.style.display='none'">
+                        <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/70 to-stone-900/20"></div>
+                        <div class="relative z-10 space-y-4">
                             <p class="text-stone-200 text-xs font-light leading-relaxed">Terapia corporal basada en la presión digital sobre puntos neuromusculares para aliviar tensiones crónicas, reordenar el sistema nervioso y restaurar la energía vital.</p>
-                            <a href="https://inyodo.github.io/masaje-japones-/" class="inline-block w-full text-center bg-amber-800/90 hover:bg-amber-800 text-white py-2.5 font-bold uppercase tracking-widest transition text-[10px] backdrop-blur-sm">
+                            <a href="https://inyodo.github.io/masaje-japones-/" class="inline-block w-full text-center bg-amber-800/90 hover:bg-amber-800 text-white py-3 font-bold uppercase tracking-widest transition text-[10px] backdrop-blur-sm">
                                 Ingresar a Masaje Japonés <i class="fas fa-arrow-right ml-1"></i>
                             </a>
                         </div>
@@ -163,12 +163,12 @@
                 <p class="text-stone-500 text-xs mt-1">Fuerza & Rendimiento • Prof. Gastón Burgos</p>
                 
                 <div class="activity-details">
-                    <div class="relative rounded-b-sm overflow-hidden -mx-8 -mb-8 mt-6 p-6 min-h-[220px] flex flex-col justify-end text-white bg-stone-900">
-                        <img src="imagen/hiit-calistenia.png" alt="HIIT Calistenia" class="absolute inset-0 w-full h-full object-cover opacity-70" onerror="this.style.display='none'">
-                        <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/60 to-transparent"></div>
-                        <div class="relative z-10 space-y-3">
+                    <div class="relative rounded-b-sm overflow-hidden -mx-8 -mb-8 mt-6 p-6 min-h-[380px] md:min-h-[440px] flex flex-col justify-end text-white bg-stone-950">
+                        <img src="imagen/hiit-calistenia.png" alt="HIIT Calistenia" class="absolute inset-0 w-full h-full object-cover opacity-80" onerror="this.style.display='none'">
+                        <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/70 to-stone-900/20"></div>
+                        <div class="relative z-10 space-y-4">
                             <p class="text-stone-200 text-xs font-light leading-relaxed">Fórmula de alta intensidad combinada con dominio del propio peso corporal. Fortalecimiento muscular, aceleración metabólica y corrección postural personalizada.</p>
-                            <a href="https://inyodo.github.io/espacio-inyo-web/hiit-calistenia.html" class="inline-block w-full text-center bg-amber-800/90 hover:bg-amber-800 text-white py-2.5 font-bold uppercase tracking-widest transition text-[10px] backdrop-blur-sm">
+                            <a href="https://inyodo.github.io/espacio-inyo-web/hiit-calistenia.html" class="inline-block w-full text-center bg-amber-800/90 hover:bg-amber-800 text-white py-3 font-bold uppercase tracking-widest transition text-[10px] backdrop-blur-sm">
                                 Ingresar a HIIT Calistenia <i class="fas fa-arrow-right ml-1"></i>
                             </a>
                         </div>
@@ -186,12 +186,12 @@
                 <p class="text-stone-500 text-xs mt-1">Hatha, Terapéutico, Pre-Parto & Dinámico</p>
                 
                 <div class="activity-details">
-                    <div class="relative rounded-b-sm overflow-hidden -mx-8 -mb-8 mt-6 p-6 min-h-[220px] flex flex-col justify-end text-white bg-stone-900">
-                        <img src="imagen/yoga.png" alt="Clases de Yoga" class="absolute inset-0 w-full h-full object-cover opacity-70" onerror="this.style.display='none'">
-                        <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/60 to-transparent"></div>
-                        <div class="relative z-10 space-y-3">
+                    <div class="relative rounded-b-sm overflow-hidden -mx-8 -mb-8 mt-6 p-6 min-h-[380px] md:min-h-[440px] flex flex-col justify-end text-white bg-stone-950">
+                        <img src="imagen/yoga.png" alt="Clases de Yoga" class="absolute inset-0 w-full h-full object-cover opacity-80" onerror="this.style.display='none'">
+                        <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/70 to-stone-900/20"></div>
+                        <div class="relative z-10 space-y-4">
                             <p class="text-stone-200 text-xs font-light leading-relaxed">Diferentes enfoques adaptados a cada etapa de la vida: Yoga Pre-Parto con Lic. Obstetricia, Hatha con Profe Belén, Terapéutico con Profe Estefy e Integral con Profe Luciana.</p>
-                            <a href="https://inyodo.github.io/espacio-inyo-web/yoga.html" class="inline-block w-full text-center bg-amber-800/90 hover:bg-amber-800 text-white py-2.5 font-bold uppercase tracking-widest transition text-[10px] backdrop-blur-sm">
+                            <a href="https://inyodo.github.io/espacio-inyo-web/yoga.html" class="inline-block w-full text-center bg-amber-800/90 hover:bg-amber-800 text-white py-3 font-bold uppercase tracking-widest transition text-[10px] backdrop-blur-sm">
                                 Ver Grilla de Yoga <i class="fas fa-arrow-right ml-1"></i>
                             </a>
                         </div>
@@ -209,12 +209,12 @@
                 <p class="text-stone-500 text-xs mt-1">Suelo Pélvico & Postura • Inst. Natalia Basoalto</p>
                 
                 <div class="activity-details">
-                    <div class="relative rounded-b-sm overflow-hidden -mx-8 -mb-8 mt-6 p-6 min-h-[220px] flex flex-col justify-end text-white bg-stone-900">
-                        <img src="imagen/hipopresivos.png" alt="Hipopresivos" class="absolute inset-0 w-full h-full object-cover opacity-70" onerror="this.style.display='none'">
-                        <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/60 to-transparent"></div>
-                        <div class="relative z-10 space-y-3">
+                    <div class="relative rounded-b-sm overflow-hidden -mx-8 -mb-8 mt-6 p-6 min-h-[380px] md:min-h-[440px] flex flex-col justify-end text-white bg-stone-950">
+                        <img src="imagen/hipopresivos.png" alt="Hipopresivos" class="absolute inset-0 w-full h-full object-cover opacity-80" onerror="this.style.display='none'">
+                        <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/70 to-stone-900/20"></div>
+                        <div class="relative z-10 space-y-4">
                             <p class="text-stone-200 text-xs font-light leading-relaxed">Reeducación postural y respiración en apnea para activar la faja abdominal profunda, proteger el suelo pélvico y reducir el perímetro de cintura de forma saludable.</p>
-                            <a href="https://inyodo.github.io/espacio-inyo-web/guia-alumnas.html" class="inline-block w-full text-center bg-amber-800/90 hover:bg-amber-800 text-white py-2.5 font-bold uppercase tracking-widest transition text-[10px] backdrop-blur-sm">
+                            <a href="https://inyodo.github.io/espacio-inyo-web/guia-alumnas.html" class="inline-block w-full text-center bg-amber-800/90 hover:bg-amber-800 text-white py-3 font-bold uppercase tracking-widest transition text-[10px] backdrop-blur-sm">
                                 Portal Alumnas Hipopresivos <i class="fas fa-arrow-right ml-1"></i>
                             </a>
                         </div>
@@ -232,12 +232,12 @@
                 <p class="text-stone-500 text-xs mt-1">Flexibilidad & Canales Energéticos • Gastón Burgos</p>
                 
                 <div class="activity-details">
-                    <div class="relative rounded-b-sm overflow-hidden -mx-8 -mb-8 mt-6 p-6 min-h-[220px] flex flex-col justify-end text-white bg-stone-900">
-                        <img src="imagen/zen-stretching.png" alt="Zen Stretching" class="absolute inset-0 w-full h-full object-cover opacity-70" onerror="this.style.display='none'">
-                        <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/60 to-transparent"></div>
-                        <div class="relative z-10 space-y-3">
+                    <div class="relative rounded-b-sm overflow-hidden -mx-8 -mb-8 mt-6 p-6 min-h-[380px] md:min-h-[440px] flex flex-col justify-end text-white bg-stone-950">
+                        <img src="imagen/zen-stretching.png" alt="Zen Stretching" class="absolute inset-0 w-full h-full object-cover opacity-80" onerror="this.style.display='none'">
+                        <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/70 to-stone-900/20"></div>
+                        <div class="relative z-10 space-y-4">
                             <p class="text-stone-200 text-xs font-light leading-relaxed">Estiramiento diagnóstico basado en la medicina tradicional oriental y la liberación fascial. Ideal para eliminar bloqueos musculares y recuperar la movilidad profunda.</p>
-                            <a href="https://inyodo.github.io/espacio-inyo-web/zen-stretching.html" class="inline-block w-full text-center bg-amber-800/90 hover:bg-amber-800 text-white py-2.5 font-bold uppercase tracking-widest transition text-[10px] backdrop-blur-sm">
+                            <a href="https://inyodo.github.io/espacio-inyo-web/zen-stretching.html" class="inline-block w-full text-center bg-amber-800/90 hover:bg-amber-800 text-white py-3 font-bold uppercase tracking-widest transition text-[10px] backdrop-blur-sm">
                                 Ingresar a Zen Stretching <i class="fas fa-arrow-right ml-1"></i>
                             </a>
                         </div>
@@ -255,12 +255,12 @@
                 <p class="text-stone-500 text-xs mt-1">Arte de la Salud • Prof. Alejandra Paz</p>
                 
                 <div class="activity-details">
-                    <div class="relative rounded-b-sm overflow-hidden -mx-8 -mb-8 mt-6 p-6 min-h-[220px] flex flex-col justify-end text-white bg-stone-900">
-                        <img src="imagen/qigong.png" alt="Qigong" class="absolute inset-0 w-full h-full object-cover opacity-70" onerror="this.style.display='none'">
-                        <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/60 to-transparent"></div>
-                        <div class="relative z-10 space-y-3">
+                    <div class="relative rounded-b-sm overflow-hidden -mx-8 -mb-8 mt-6 p-6 min-h-[380px] md:min-h-[440px] flex flex-col justify-end text-white bg-stone-950">
+                        <img src="imagen/qigong.png" alt="Qigong" class="absolute inset-0 w-full h-full object-cover opacity-80" onerror="this.style.display='none'">
+                        <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/70 to-stone-900/20"></div>
+                        <div class="relative z-10 space-y-4">
                             <p class="text-stone-200 text-xs font-light leading-relaxed">Gimnasia terapéutica china que coordina postura, respiración suave y concentración mental para equilibrar el flujo energético y fortalecer el sistema inmune.</p>
-                            <a href="https://inyodo.github.io/Qigong/" class="inline-block w-full text-center bg-amber-800/90 hover:bg-amber-800 text-white py-2.5 font-bold uppercase tracking-widest transition text-[10px] backdrop-blur-sm">
+                            <a href="https://inyodo.github.io/Qigong/" class="inline-block w-full text-center bg-amber-800/90 hover:bg-amber-800 text-white py-3 font-bold uppercase tracking-widest transition text-[10px] backdrop-blur-sm">
                                 Ingresar a Qigong <i class="fas fa-arrow-right ml-1"></i>
                             </a>
                         </div>
@@ -278,12 +278,12 @@
                 <p class="text-stone-500 text-xs mt-1">Bujinkan Budo Taijutsu • Shihan Gastón Burgos</p>
                 
                 <div class="activity-details">
-                    <div class="relative rounded-b-sm overflow-hidden -mx-8 -mb-8 mt-6 p-6 min-h-[220px] flex flex-col justify-end text-white bg-stone-900">
-                        <img src="imagen/artes-marciales.png" alt="Artes Marciales Kiryu Dojo" class="absolute inset-0 w-full h-full object-cover opacity-70" onerror="this.style.display='none'">
-                        <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/60 to-transparent"></div>
-                        <div class="relative z-10 space-y-3">
+                    <div class="relative rounded-b-sm overflow-hidden -mx-8 -mb-8 mt-6 p-6 min-h-[380px] md:min-h-[440px] flex flex-col justify-end text-white bg-stone-950">
+                        <img src="imagen/artes-marciales.png" alt="Artes Marciales Kiryu Dojo" class="absolute inset-0 w-full h-full object-cover opacity-80" onerror="this.style.display='none'">
+                        <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/70 to-stone-900/20"></div>
+                        <div class="relative z-10 space-y-4">
                             <p class="text-stone-200 text-xs font-light leading-relaxed">Enseñanza de las 9 escuelas tradicionales guerreras de Japón. Defensa personal real, acondicionamiento físico, temple mental y filosofía samurai.</p>
-                            <a href="https://inyodo.github.io/espacio-inyo-web/artes-marciales.html" class="inline-block w-full text-center bg-amber-800/90 hover:bg-amber-800 text-white py-2.5 font-bold uppercase tracking-widest transition text-[10px] backdrop-blur-sm">
+                            <a href="https://inyodo.github.io/espacio-inyo-web/artes-marciales.html" class="inline-block w-full text-center bg-amber-800/90 hover:bg-amber-800 text-white py-3 font-bold uppercase tracking-widest transition text-[10px] backdrop-blur-sm">
                                 Ingresar a Artes Marciales <i class="fas fa-arrow-right ml-1"></i>
                             </a>
                         </div>
@@ -301,12 +301,12 @@
                 <p class="text-stone-500 text-xs mt-1">Descompresión Articular • Profe Belén González</p>
                 
                 <div class="activity-details">
-                    <div class="relative rounded-b-sm overflow-hidden -mx-8 -mb-8 mt-6 p-6 min-h-[220px] flex flex-col justify-end text-white bg-stone-900">
-                        <img src="imagen/inyo-stretching.png" alt="INYO Stretching" class="absolute inset-0 w-full h-full object-cover opacity-70" onerror="this.style.display='none'">
-                        <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/60 to-transparent"></div>
-                        <div class="relative z-10 space-y-3">
+                    <div class="relative rounded-b-sm overflow-hidden -mx-8 -mb-8 mt-6 p-6 min-h-[380px] md:min-h-[440px] flex flex-col justify-end text-white bg-stone-950">
+                        <img src="imagen/inyo-stretching.png" alt="INYO Stretching" class="absolute inset-0 w-full h-full object-cover opacity-80" onerror="this.style.display='none'">
+                        <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/70 to-stone-900/20"></div>
+                        <div class="relative z-10 space-y-4">
                             <p class="text-stone-200 text-xs font-light leading-relaxed">Espacio dedicado al estiramiento muscular integral, liberación de la columna y ganancia de flexibilidad mediante técnicas suaves y progresivas.</p>
-                            <a href="https://inyodo.github.io/stretching-belengonzalez/" class="inline-block w-full text-center bg-amber-800/90 hover:bg-amber-800 text-white py-2.5 font-bold uppercase tracking-widest transition text-[10px] backdrop-blur-sm">
+                            <a href="https://inyodo.github.io/stretching-belengonzalez/" class="inline-block w-full text-center bg-amber-800/90 hover:bg-amber-800 text-white py-3 font-bold uppercase tracking-widest transition text-[10px] backdrop-blur-sm">
                                 Ingresar a INYO Stretching <i class="fas fa-arrow-right ml-1"></i>
                             </a>
                         </div>
@@ -324,12 +324,12 @@
                 <p class="text-stone-500 text-xs mt-1">Acompañamiento Espiritual • Ignacio Digas</p>
                 
                 <div class="activity-details">
-                    <div class="relative rounded-b-sm overflow-hidden -mx-8 -mb-8 mt-6 p-6 min-h-[220px] flex flex-col justify-end text-white bg-stone-900">
-                        <img src="imagen/chamanismo.png" alt="Chamanismo" class="absolute inset-0 w-full h-full object-cover opacity-70" onerror="this.style.display='none'">
-                        <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/60 to-transparent"></div>
-                        <div class="relative z-10 space-y-3">
+                    <div class="relative rounded-b-sm overflow-hidden -mx-8 -mb-8 mt-6 p-6 min-h-[380px] md:min-h-[440px] flex flex-col justify-end text-white bg-stone-950">
+                        <img src="imagen/chamanismo.png" alt="Chamanismo" class="absolute inset-0 w-full h-full object-cover opacity-80" onerror="this.style.display='none'">
+                        <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/70 to-stone-900/20"></div>
+                        <div class="relative z-10 space-y-4">
                             <p class="text-stone-200 text-xs font-light leading-relaxed">Encuentros individuales de limpieza energética, alineación de centros sutiles y conexión con la sabiduría ancestral. Gestión manual de turnos.</p>
-                            <a href="https://inyodo.github.io/chamanismo/" class="inline-block w-full text-center bg-amber-800/90 hover:bg-amber-800 text-white py-2.5 font-bold uppercase tracking-widest transition text-[10px] backdrop-blur-sm">
+                            <a href="https://inyodo.github.io/chamanismo/" class="inline-block w-full text-center bg-amber-800/90 hover:bg-amber-800 text-white py-3 font-bold uppercase tracking-widest transition text-[10px] backdrop-blur-sm">
                                 Ver Turnos de Chamanismo <i class="fas fa-arrow-right ml-1"></i>
                             </a>
                         </div>
@@ -347,12 +347,12 @@
                 <p class="text-stone-500 text-xs mt-1">Desarrollo Personal & Planificación • Gastón Burgos</p>
                 
                 <div class="activity-details">
-                    <div class="relative rounded-b-sm overflow-hidden -mx-8 -mb-8 mt-6 p-6 min-h-[220px] flex flex-col justify-end text-white bg-stone-900">
-                        <img src="imagen/coaching.png" alt="Coaching Online" class="absolute inset-0 w-full h-full object-cover opacity-70" onerror="this.style.display='none'">
-                        <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/60 to-transparent"></div>
-                        <div class="relative z-10 space-y-3">
+                    <div class="relative rounded-b-sm overflow-hidden -mx-8 -mb-8 mt-6 p-6 min-h-[380px] md:min-h-[440px] flex flex-col justify-end text-white bg-stone-950">
+                        <img src="imagen/coaching.png" alt="Coaching Online" class="absolute inset-0 w-full h-full object-cover opacity-80" onerror="this.style.display='none'">
+                        <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/70 to-stone-900/20"></div>
+                        <div class="relative z-10 space-y-4">
                             <p class="text-stone-200 text-xs font-light leading-relaxed">Sesiones virtuales enfocadas en el cumplimiento de objetivos físicos, hábitos saludables, mentalidad de entrenamiento y planificación estratégica personalizada.</p>
-                            <a href="https://inyodo.github.io/Coaching-/index.html" class="inline-block w-full text-center bg-amber-800/90 hover:bg-amber-800 text-white py-2.5 font-bold uppercase tracking-widest transition text-[10px] backdrop-blur-sm">
+                            <a href="https://inyodo.github.io/Coaching-/index.html" class="inline-block w-full text-center bg-amber-800/90 hover:bg-amber-800 text-white py-3 font-bold uppercase tracking-widest transition text-[10px] backdrop-blur-sm">
                                 Ingresar a Coaching Online <i class="fas fa-arrow-right ml-1"></i>
                             </a>
                         </div>
@@ -370,12 +370,12 @@
                 <p class="text-stone-500 text-xs mt-1">Inscripciones & Sesiones • Sistema Tradicional</p>
                 
                 <div class="activity-details">
-                    <div class="relative rounded-b-sm overflow-hidden -mx-8 -mb-8 mt-6 p-6 min-h-[220px] flex flex-col justify-end text-white bg-stone-900">
-                        <img src="imagen/reiki.png" alt="Reiki Ryoho" class="absolute inset-0 w-full h-full object-cover opacity-70" onerror="this.style.display='none'">
-                        <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/60 to-transparent"></div>
-                        <div class="relative z-10 space-y-3">
+                    <div class="relative rounded-b-sm overflow-hidden -mx-8 -mb-8 mt-6 p-6 min-h-[380px] md:min-h-[440px] flex flex-col justify-end text-white bg-stone-950">
+                        <img src="imagen/reiki.png" alt="Reiki Ryoho" class="absolute inset-0 w-full h-full object-cover opacity-80" onerror="this.style.display='none'">
+                        <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/70 to-stone-900/20"></div>
+                        <div class="relative z-10 space-y-4">
                             <p class="text-stone-200 text-xs font-light leading-relaxed">Método tradicional japonés de imposición de manos para canalizar energía vital universal, reducir estados de estrés y promover la autosanación natural.</p>
-                            <a href="https://inyodo.github.io/Reiki-Ryoho-Inscripciones/" class="inline-block w-full text-center bg-amber-800/90 hover:bg-amber-800 text-white py-2.5 font-bold uppercase tracking-widest transition text-[10px] backdrop-blur-sm">
+                            <a href="https://inyodo.github.io/Reiki-Ryoho-Inscripciones/" class="inline-block w-full text-center bg-amber-800/90 hover:bg-amber-800 text-white py-3 font-bold uppercase tracking-widest transition text-[10px] backdrop-blur-sm">
                                 Inscripciones a Reiki Ryōhō <i class="fas fa-arrow-right ml-1"></i>
                             </a>
                         </div>
@@ -393,12 +393,12 @@
                 <p class="text-stone-500 text-xs mt-1">Vibración & Relajación Profunda</p>
                 
                 <div class="activity-details">
-                    <div class="relative rounded-b-sm overflow-hidden -mx-8 -mb-8 mt-6 p-6 min-h-[220px] flex flex-col justify-end text-white bg-stone-900">
-                        <img src="imagen/cuencos.png" alt="Cuencos Tibetanos" class="absolute inset-0 w-full h-full object-cover opacity-70" onerror="this.style.display='none'">
-                        <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/60 to-transparent"></div>
-                        <div class="relative z-10 space-y-3">
+                    <div class="relative rounded-b-sm overflow-hidden -mx-8 -mb-8 mt-6 p-6 min-h-[380px] md:min-h-[440px] flex flex-col justify-end text-white bg-stone-950">
+                        <img src="imagen/cuencos.png" alt="Cuencos Tibetanos" class="absolute inset-0 w-full h-full object-cover opacity-80" onerror="this.style.display='none'">
+                        <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/70 to-stone-900/20"></div>
+                        <div class="relative z-10 space-y-4">
                             <p class="text-stone-200 text-xs font-light leading-relaxed">Experiencia de baño sonoro donde la frecuencia e intensidad de las armónicas facilitan estados meditativos profundos y descompresión del sistema nervioso.</p>
-                            <a href="https://inyodo.github.io/cuencos-tibetanos/" class="inline-block w-full text-center bg-amber-800/90 hover:bg-amber-800 text-white py-2.5 font-bold uppercase tracking-widest transition text-[10px] backdrop-blur-sm">
+                            <a href="https://inyodo.github.io/cuencos-tibetanos/" class="inline-block w-full text-center bg-amber-800/90 hover:bg-amber-800 text-white py-3 font-bold uppercase tracking-widest transition text-[10px] backdrop-blur-sm">
                                 Ingresar a Cuencos Tibetanos <i class="fas fa-arrow-right ml-1"></i>
                             </a>
                         </div>
@@ -416,12 +416,12 @@
                 <p class="text-stone-500 text-xs mt-1">Equilibrio & Tratamientos Terapéuticos</p>
                 
                 <div class="activity-details">
-                    <div class="relative rounded-b-sm overflow-hidden -mx-8 -mb-8 mt-6 p-6 min-h-[220px] flex flex-col justify-end text-white bg-stone-900">
-                        <img src="imagen/acupuntura.png" alt="Acupuntura" class="absolute inset-0 w-full h-full object-cover opacity-70" onerror="this.style.display='none'">
-                        <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/60 to-transparent"></div>
-                        <div class="relative z-10 space-y-3">
+                    <div class="relative rounded-b-sm overflow-hidden -mx-8 -mb-8 mt-6 p-6 min-h-[380px] md:min-h-[440px] flex flex-col justify-end text-white bg-stone-950">
+                        <img src="imagen/acupuntura.png" alt="Acupuntura" class="absolute inset-0 w-full h-full object-cover opacity-80" onerror="this.style.display='none'">
+                        <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/70 to-stone-900/20"></div>
+                        <div class="relative z-10 space-y-4">
                             <p class="text-stone-200 text-xs font-light leading-relaxed">Estimulación fina de meridianos energéticos para tratar dolencias crónicas, regular el equilibrio orgánico y acelerar la recuperación física e interna.</p>
-                            <a href="https://inyodo.github.io/Acupuntura/index.html" class="inline-block w-full text-center bg-amber-800/90 hover:bg-amber-800 text-white py-2.5 font-bold uppercase tracking-widest transition text-[10px] backdrop-blur-sm">
+                            <a href="https://inyodo.github.io/Acupuntura/index.html" class="inline-block w-full text-center bg-amber-800/90 hover:bg-amber-800 text-white py-3 font-bold uppercase tracking-widest transition text-[10px] backdrop-blur-sm">
                                 Ingresar a Acupuntura <i class="fas fa-arrow-right ml-1"></i>
                             </a>
                         </div>
